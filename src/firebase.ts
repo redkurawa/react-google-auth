@@ -10,6 +10,13 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
+// Debug environment variables
+console.log('Firebase config available:', {
+  hasApiKey: !!process.env.REACT_APP_FIREBASE_API_KEY,
+  hasAuthDomain: !!process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  hasProjectId: !!process.env.REACT_APP_FIREBASE_PROJECT_ID
+});
+
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 auth.settings.appVerificationDisabledForTesting = false;
