@@ -25,6 +25,7 @@ git push -u origin main
 #### 1. **Environment Variables** di Vercel Dashboard:
 
 ```
+<<<<<<< HEAD
 REACT_APP_GOOGLE_CLIENT_ID=xxxxxxx.apps.googleusercontent.com
 REACT_APP_FIREBASE_API_KEY=xxxxxx-RaBEuwqP2hg
 REACT_APP_FIREBASE_AUTH_DOMAIN=react--xxxxx.firebaseapp.com
@@ -32,6 +33,15 @@ REACT_APP_FIREBASE_PROJECT_ID=react--xxxxx
 REACT_APP_FIREBASE_STORAGE_BUCKET=react--xxxxxx.firebasestorage.app
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=xxxxxx376323
 REACT_APP_FIREBASE_APP_ID=1:1087821376323:web:xxxxxxx
+=======
+REACT_APP_GOOGLE_CLIENT_ID=
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+>>>>>>> a9c5dd488b34c54fe3c043898a812b58659bd364
 ```
 
 #### 2. **Update Google OAuth** di Google Cloud Console:
